@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.mainactivity"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:4:5-67
+11-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:4:22-64
+12
+13    <application
+13-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:6:5-27:19
+14        android:allowBackup="true"
+14-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:7:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\6632200fc88624f3215dfbe7778c8101\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:8:9-43
+18        android:label="@string/app_name"
+18-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:9:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:10:9-54
+20        android:supportsRtl="true"
+20-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:11:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:12:9-40
+23        <activity
+23-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:13:9-15:56
+24            android:name="com.example.mainactivity.detail.SerialTVDetailActivity"
+24-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:13:19-64
+25            android:parentActivityName="com.example.mainactivity.detail.SerialTVDetailActivity"
+25-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:14:13-72
+26            android:theme="@style/AppTheme" />
+26-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:15:13-44
+27        <activity
+27-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:16:9-18:47
+28            android:name="com.example.mainactivity.detail.MovieDetailActivity"
+28-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:16:19-61
+29            android:parentActivityName="com.example.mainactivity.detail.MovieDetailActivity"
+29-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:17:13-69
+30            android:theme="@style/AppTheme" />
+30-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:18:13-44
+31        <activity android:name="com.example.mainactivity.MainActivity" >
+31-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:19:9-26:20
+31-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:19:19-47
+32            <intent-filter>
+32-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:20:13-24:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:21:17-69
+33-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:21:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:23:17-77
+35-->D:\LOCAL E\BELAJAR\OAandroid\SUB4MADE\app\src\main\AndroidManifest.xml:23:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <provider
+39-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c01a07c8d4e2c5f6b539953fc131d4f7\lifecycle-process-2.1.0\AndroidManifest.xml:23:9-27:43
+40            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+40-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c01a07c8d4e2c5f6b539953fc131d4f7\lifecycle-process-2.1.0\AndroidManifest.xml:24:13-79
+41            android:authorities="com.example.mainactivity.lifecycle-process"
+41-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c01a07c8d4e2c5f6b539953fc131d4f7\lifecycle-process-2.1.0\AndroidManifest.xml:25:13-69
+42            android:exported="false"
+42-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c01a07c8d4e2c5f6b539953fc131d4f7\lifecycle-process-2.1.0\AndroidManifest.xml:26:13-37
+43            android:multiprocess="true" />
+43-->[androidx.lifecycle:lifecycle-process:2.1.0] C:\Users\USER\.gradle\caches\transforms-2\files-2.1\c01a07c8d4e2c5f6b539953fc131d4f7\lifecycle-process-2.1.0\AndroidManifest.xml:27:13-40
+44    </application>
+45
+46</manifest>
